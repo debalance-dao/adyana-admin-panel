@@ -76,12 +76,12 @@
                     });
 
                     const result = await swalWithBootstrapButtons.fire({
-                        title: 'Yakin nih?',
-                        text: "Datanya gak bakal kembali loh!",
+                        title: 'Are you sure?',
+                        text: "Data cannot be restore!",
                         icon: 'warning',
                         showCancelButton: true,
-                        confirmButtonText: 'Ya, hapus deh!',
-                        cancelButtonText: 'Tidak, ga jadi!',
+                        confirmButtonText: 'Yes, Delete!',
+                        cancelButtonText: 'No, Dont delete!',
                         reverseButtons: true,
                         padding: '2em',
                     });

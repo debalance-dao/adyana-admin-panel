@@ -78,7 +78,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/home" class="group">
+                    <a href="/funds" class="group">
                         <div class="flex items-center">
 
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
