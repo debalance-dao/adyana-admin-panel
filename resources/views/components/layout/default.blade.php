@@ -18,7 +18,7 @@
     <script defer src="/assets/js/popper.min.js"></script>
     <script defer src="/assets/js/tippy-bundle.umd.min.js"></script>
     <script defer src="/assets/js/sweetalert.min.js"></script>
-    @vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css', 'resources/css/nice-select2.css'])
 </head>
 
 <body x-data="main" class="antialiased relative font-nunito text-sm font-normal overflow-x-hidden dark"
@@ -32,7 +32,7 @@
         @click="$store.app.toggleSidebar()"></div>
 
     <!-- screen loader -->
-    <div class="screen_loader fixed inset-0 bg-[#fafafa] z-[60] grid place-content-center animate__animated">
+    <div class="screen_loader fixed inset-0 bg-[#000000] z-[60] grid place-content-center animate__animated">
         <svg width="64" height="64" viewBox="0 0 135 135" xmlns="http://www.w3.org/2000/svg" fill="#4361ee">
             <path
                 d="M67.447 58c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm9.448 9.447c0 5.523 4.477 10 10 10 5.522 0 10-4.477 10-10s-4.478-10-10-10c-5.523 0-10 4.477-10 10zm-9.448 9.448c-5.523 0-10 4.477-10 10 0 5.522 4.477 10 10 10s10-4.478 10-10c0-5.523-4.477-10-10-10zM58 67.447c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10z">
@@ -111,6 +111,7 @@
     <script defer src="/assets/js/alpine-focus.min.js"></script>
     <script defer src="/assets/js/alpine.min.js"></script>
     <script src="/assets/js/custom.js"></script>
+    <script src="/assets/js/nice-select2.js"></script>
 </body>
 
 </html>
