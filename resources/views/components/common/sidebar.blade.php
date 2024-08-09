@@ -48,7 +48,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="/home" class="group">
+                    <a href="/projects" class="group">
                         <div class="flex items-center">
 
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -72,7 +72,7 @@
 
 
                             <span
-                                class="ltr:pl-3 rtl:pr-3 text-black dark:text-[#506690] dark:group-hover:text-white-dark">Project</span>
+                                class="ltr:pl-3 rtl:pr-3 text-black dark:text-[#506690] dark:group-hover:text-white-dark">Projects</span>
                         </div>
                     </a>
                 </li>
